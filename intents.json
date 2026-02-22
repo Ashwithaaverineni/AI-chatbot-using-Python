@@ -1,0 +1,24 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["your name", "who are you"],
+      "responses": ["I am a Python chatbot.", "You can call me AI Bot."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "assist"],
+      "responses": ["I can chat with you!", "Ask me anything."]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "goodbye"],
+      "responses": ["Goodbye!", "See you later!"]
+    }
+  ]
+}
